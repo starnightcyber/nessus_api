@@ -60,6 +60,6 @@ if __name__ == '__main__':
     # nessus.delete_scan(306)
 
     # eg.获取扫描结果，导出扫描报告
-    nessus.get_scan_detail(354)
-    nessus.export_scan_result(354)
+    # nessus.get_scan_detail(354)
+    # nessus.export_scan_result(354)
 
