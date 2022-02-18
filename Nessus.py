@@ -19,7 +19,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-def gen_random_str(str_len='6'):
+def gen_random_str(str_len=6):
     '''
     生成小写字符和数字的随机组合字符串，默认 6 位
     Gen 6 bits random string of small letter and digit combination by default
